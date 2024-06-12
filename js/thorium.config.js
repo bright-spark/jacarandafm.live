@@ -8,9 +8,9 @@ const kDebugMessagesLevel= 1;
 const kHybridAppsLog = true;
 const kAutoUpdate=false;
 const kShowPreloader=false;
-const kLocalRoot = "http://localhost:8080/carbonized_red/";
+const kLocalRoot = "http://localhost:8080/jacarandafm.live/";
 const kMediaRoot = './db/dbassets/';
-const kRemoteHost="https://carbonized.red/";
+const kRemoteHost="https://jacarandafm.live/";
 const kTimeOut =6000;
 const kCrossDomain =false;
 const kAuthMode =0;
@@ -32,7 +32,7 @@ const kAddToHomeScreenIos = true;
 const kAddToHomeScreenMd = true;
 const kSkipButton=true;
 const kSkipButtonText="Skip";
-const kAddToHomeScreenTitle="Carbonized Red";
+const kAddToHomeScreenTitle="Jacaranda FM Live";
 const kAddToHomeScreenMdText="Save to desktop now";
 const kAddToHomeScreenIosText="Save to home screen now";
 const kImgMaxSize=10;
@@ -120,13 +120,13 @@ if (document.location.search.indexOf('theme=') >= 0) {
 }
 var app = new Framework7({
     "version": "1.0.0",
-    "id": "com.thorium.carbonized_red",
+    "id": "live.jacarandafm.pwa",
     "root": "#app",
     "theme": theme,
     "autoDarkTheme": false,
     "language": "en",
     "routes": routes,
-    "name": "Carbonized Red",
+    "name": "Jacaranda FM Live",
     "initOnDeviceReady": true,
     "init": true,
     "iosTranslucentBars": true,
