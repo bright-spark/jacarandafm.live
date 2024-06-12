@@ -37,13 +37,13 @@
         /* Media queries for iframe source */
         @media screen and (max-width: 767px) {
             #player {
-                content: url('https://jacarandafm.app/pages/mobile');
+                content: url('./mobile.html');
             }
         }
 
         @media screen and (min-width: 768px) {
             #player {
-                content: url('https://jacarandafm.app/pages/desktop');
+                content: url('./desktop.html');
             }
         }
     </style>
@@ -58,7 +58,7 @@
 
         function setPlayerSource() {
             const containerWidth = player.clientWidth;
-            player.src = containerWidth <= 767 ? 'https://jacarandafm.app/pages/mobile' : 'https://jacarandafm.app/pages/desktop';
+            player.src = containerWidth <= 767 ? './mobile.html' : './desktop.html';
         }
 
         // Set initial source
